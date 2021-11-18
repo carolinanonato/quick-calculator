@@ -1,0 +1,40 @@
+body {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  width: 500px;
+  height: 500px;
+  background: lightcoral;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 50px;
+  border-radius: 20px;
+}
+
+input[type="number"] {
+  border-radius: 20px;
+  height: 25px;
+}
+
+.calc {
+  margin-top: 50px;
+}
+
+#button {
+  margin-top: 30px;
+  background-color: lightgoldenrodyellow;
+  font-size: 20px;
+  border-radius: 20px;
+  height: 40px;
+  width: 100px;
+}
+
+#result {
+  font-size: 70px;
+  color: darkslateblue;
+}
